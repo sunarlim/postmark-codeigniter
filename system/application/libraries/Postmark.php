@@ -51,7 +51,7 @@ class Postmark {
      * @access  public
      * @param   array   initialization parameters
      */
-    function Postmark($params = array())
+    function __construct($params = array())
     {
         $this->CI =& get_instance();
 
